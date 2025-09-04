@@ -1,1 +1,0 @@
-# bowfolios-nextjs
