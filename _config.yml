@@ -1,8 +1,7 @@
-title: nextjs-application-template
-description: A template for quickly starting Next.js application development
+title: Parents & School Community Address
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-merlot
+theme: jekyll-theme-architect
 
 gems:
   - jekyll-mentions
