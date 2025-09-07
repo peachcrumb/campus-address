@@ -175,37 +175,9 @@ To run the end-to-end tests in development mode, you must first start up a BowFo
 
 Then, in another console window, start up the end-to-end tests with:
 
-```
-Next.js npm run testcafe
-```
 
 You will see browser windows appear and disappear as the tests run. If the tests finish successfully, you should see the following in your second console window:
 
-```
-$ Next.js npm run testcafe
-
-> bowfolios@ testcafe /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome tests/*.testcafe.js
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (40s)
-
- $
-```
 
 You can also run the testcafe tests in "continuous integration mode". This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc. In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
 
@@ -213,31 +185,6 @@ To run the testcafe tests in continuous integration mode, first ensure that BowF
 
 Then, invoke `Next.js npm run testcafe-ci`. You will not see any windows appear. When the tests finish, the console should look like this:
 
-```
-$ Next.js npm run testcafe-ci
-
-> bowfolios@ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome:headless tests/*.testcafe.js -q --app "Next.js npm run start"
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up (unstable)
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (56s)
-
-$
-```
 
 All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
 
@@ -328,6 +275,6 @@ There are a number of simple enhancements you can make to the system to become b
 - The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Next.js Method to "catch" errors of this type and re-throw with a more informative error message.
 - The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
 
-## Team
+## Credits
 
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
+BowFolios template is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
