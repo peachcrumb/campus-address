@@ -1,7 +1,7 @@
 title: Parents & School Community Address
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
