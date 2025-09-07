@@ -62,6 +62,8 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 # Upcoming Field Trip
 Please see [here](/extras/mock-trip.pdf) for the permission form.
 
+![](/extras/image.png)
+
 ### Credits
 
 BowFolios template is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
