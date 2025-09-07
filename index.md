@@ -58,12 +58,14 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 * [BowFolios Part 7: End-to-End testing in BowFolios (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
 -->
 
-## Example enhancements
+## Class Policies
 
-There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
-
-- Display an email icon that links to a mailto: for each user in the profile page.
-- Display the home page for each project as a home icon. Click on it to visit the Project's home page.
+- Missed homework? It’s your grade, not mine. Exceptions can be made in extenuating circumstances but will require documented evidence (doctor’s note, obituary, etc.)
+- Labs can be made up afterschool or at lunchtimes, please schedule with me and have your parents sign a form to approve extending or compensating for your learning time.
+- Disrupting class? If you know so much that you don’t need to pay attention, come up to the front and teach it yourself! (In cases where this goes surprisingly well, I can coach the student through and then have the class applaud them at the end of the lesson.)
+- Trying to use your device outside of permitted time (or visiting unrelated sites/activities during classtime)? You’ll have to leave it at the hub and come back for it at the end of the day. Have fun explaining to your other teachers why you’re unprepared for their classes.
+- If you’re called upon to "teach" due to disruptions more than 2x per week, you’ll have to make up the material you missed during morning breaks for the rest of the week.
+- Incentive: students with the top grades in my class will get opportunities to have their projects showcased in relevant places (ie. science fair, possibly district level, local robotics tournaments, etc.) or honored by the school
 
 ## Upcoming Field Trip
 Please see [here](/extras/mock-trip.pdf) for the permission form.
