@@ -5,23 +5,11 @@ BowFolios is an example web application that provides pages to view and (in some
 - [Next.js](https://nextjs.org/) for Typescript-based implementation of client and server code.
 
 
-It also provides code that implements a variety of useful design concepts, including:
-
-- Three primary tables (Profiles, Projects, Interests) as well as three "join" tables (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-- Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six tables in various ways.
-- Initialization code to define default Profiles, Interests, and Projects and relations between them.
-- A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-- Use of Prisma to illustrate how to simplify implementation of multiple table updates.
-- Use of indexes to enforce uniqueness of certain fields in the tables, enabling them to serve as primary keys.
-- Authentication using the built-in [NextAuth.js](https://next-auth.js.org/) along with Sign Up and Sign In pages.
-- Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-
 ## User Guide
 
 This section provides a walkthrough of the Bowfolios user interface and its capabilities.
 
 ![](doc/landing-page.png)
-
 
 ## Community Feedback
 
@@ -92,9 +80,6 @@ There are a number of simple enhancements you can make to the system to become b
 
 - Display an email icon that links to a mailto: for each user in the profile page.
 - Display the home page for each project as a home icon. Click on it to visit the Project's home page.
-- Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
-- The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
-- There is no way to edit or delete a project definition. Add this ability.
 
 
 ## Credits
