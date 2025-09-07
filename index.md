@@ -24,6 +24,8 @@ Looking forward to collaborating with all of you on your childrens' education th
 Sincerely,
 Mx. Phoebe
 
+![](/extras/image.png)
+
 <!-- ## Walkthrough videos
 
 BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
@@ -61,8 +63,6 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 
 # Upcoming Field Trip
 Please see [here](/extras/mock-trip.pdf) for the permission form.
-
-![](/extras/image.png)
 
 ### Credits
 
