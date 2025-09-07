@@ -12,7 +12,14 @@ The solution? Allowing use of these devices in moderation during classtime, but 
 There is a decent chance you may have continually exposed your children to technology since a younger age than they are now, and perhaps you even raised an 'iPad kid'. This means that they will likely be able to bring their own devices to school at their own risk, as long as the equipment is to standard with the   school's regulation. However, if for any reason your student needs to temporarily rent or borrow a required device for the semester,  
 #### Please contact the tech department to check their inventory for any available items that can be signed-out. 
 
+Q: Why do I teach at all, and why STEM?
+A: As this set of topics (sometimes also now referred to as STEAM, with the arts added-on) becomes increasingly unavoidable and more information is accessible for public knowledge, the experts in these fields willing to teach the next generation become more scarce on a local level. I believe that preparing  
+today's kids to become tomorrow's wise and knowledgeable leaders not only sets them up for success and improves the potential for their quality of life, but also in some way takes care of future us today by equipping the future adults with analytical skills to form intelligent thoughts, which directs them to make responsible decisions that produce favorable outcomes for everyone in their community regardless of age or generation.  
 
+Looking forward to collaborating with all of you on your childrens' education this year and onward.
+
+Sincerely,
+Mx. Phoebe
 
 <!-- ## Walkthrough videos
 
