@@ -1,3 +1,6 @@
+![](/extras/image.png)
+
+
 # Aloha all,
 
 As we head into the 20XX school year, I have a few announcements and reminders. For parents, if your children have not been in my classes before –  my name is Phoebe and I'll be teaching **4th grade general sciences** as well as **6th grade robotics** and **coding lab after school for 5-8th grade**.  
@@ -24,7 +27,6 @@ Looking forward to collaborating with all of you on your childrens' education th
 Sincerely,
 Mx. Phoebe
 
-![](/extras/image.png)
 
 <!-- ## Walkthrough videos
 
