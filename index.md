@@ -94,19 +94,6 @@ Bowfolios is meant to illustrate the use of Next.js for developing an initial pr
 
 (Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
-## Development History
-
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
-
-- Development consists of a sequence of Milestones.
-- Each Milestone is specified as a set of tasks.
-- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-- Tasks should typically consist of work that can be completed in 2-4 days.
-- The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of BowFolios.
 <!-- ## Walkthrough videos
 
 BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
@@ -129,9 +116,7 @@ There are a number of simple enhancements you can make to the system to become b
 - Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
 - The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
 - There is no way to edit or delete a project definition. Add this ability.
-- It would be nice for users to only be able to edit the Projects that they have created. Add an "owner" field to the Project table, and then only allow a user to edit a Project definition if they own it.
-- The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Next.js Method to "catch" errors of this type and re-throw with a more informative error message.
-- The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
+
 
 ## Credits
 
