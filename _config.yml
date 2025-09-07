@@ -1,7 +1,10 @@
 title: Parents & School Community Address
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-architect
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 gems:
   - jekyll-mentions
+
+plugins:
+  - jekyll-include-cache
