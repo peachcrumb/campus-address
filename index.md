@@ -65,7 +65,9 @@ There are a number of simple enhancements you can make to the system to become b
 - Display an email icon that links to a mailto: for each user in the profile page.
 - Display the home page for each project as a home icon. Click on it to visit the Project's home page.
 
+## Upcoming Field Trip
+Please see [here](/extras/mock-trip.pdf) for the permission form.
 
-## Credits
+### Credits
 
 BowFolios template is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
