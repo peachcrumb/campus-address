@@ -60,12 +60,20 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 
 ## Class Policies
 
-- Missed homework? It’s your grade, not mine. Exceptions can be made in extenuating circumstances but will require documented evidence (doctor’s note, obituary, etc.)
-- Labs can be made up afterschool or at lunchtimes, please schedule with me and have your parents sign a form to approve extending or compensating for your learning time.
-- Disrupting class? If you know so much that you don’t need to pay attention, come up to the front and teach it yourself! (In cases where this goes surprisingly well, I can coach the student through and then have the class applaud them at the end of the lesson.)
-- Trying to use your device outside of permitted time (or visiting unrelated sites/activities during classtime)? You’ll have to leave it at the hub and come back for it at the end of the day. Have fun explaining to your other teachers why you’re unprepared for their classes.
-- If you’re called upon to "teach" due to disruptions more than 2x per week, you’ll have to make up the material you missed during morning breaks for the rest of the week.
-- Incentive: students with the top grades in my class will get opportunities to have their projects showcased in relevant places (ie. science fair, possibly district level, local robotics tournaments, etc.) or honored by the school
+* Missed homework? 
+    * It’s your grade, not mine. 
+    * Exceptions can be made in extenuating circumstances but will require documented evidence (doctor’s note, obituary, etc.)
+* Labs can be made up afterschool or at lunchtimes
+    * Please schedule with me and have your parents sign a form to approve extending or compensating for your learning time.
+* Disrupting class? 
+    * If you know so much that you don’t need to pay attention, come up to the front and teach it yourself!
+    * (In cases where this goes surprisingly well, I can coach the student through and then have the class applaud them at the end of the lesson.)
+* Trying to use your device outside of permitted time (or visiting unrelated sites/activities during classtime)? 
+    * You’ll have to leave it at the hub and come back for it at the end of the day. 
+    * Have fun explaining to your other teachers why you’re unprepared for their classes.
+* If you’re called upon to "teach" due to disruptions more than 2x per week, you’ll have to make up the material you missed during morning breaks for the rest of the week.
+* Incentive: students with the top grades in my class will get opportunities to have their projects showcased in relevant places or honored by the school
+    * (ie. science fair, possibly district level, local robotics tournaments, etc.)
 
 ## Upcoming Field Trip
 Please see [here](/extras/mock-trip.pdf) for the permission form.
