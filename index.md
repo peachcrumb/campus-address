@@ -19,21 +19,13 @@ Bowfolios is based upon [Next.js-application-template-react](https://ics-softwar
 
 As noted above, the Bowfolios data model consists of three "primary" tables (Projects, Profiles, and Interests), as well as three "join" tables (ProfilesProjects, ProfilesInterests, and ProjectsInterests). To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
 
-Design choice #1: Provide a field in Profile table called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with. But what if you want to go the other direction: display a Project and all of the Profiles associated with it? Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match. That's computationally expensive and also just silly.
-
-Design choice #2: Provide a "join" table where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this table for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the table for all documents matching the Project, then extract the Profile field.
-
 Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary tables:
 
 ![](doc/data-model.png)
 
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that table. This constraint is enforced in the schema definition associated with that table.
-
 ## Initialization
 
 The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files. The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
-
-This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
 
 The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded. The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
 
