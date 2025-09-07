@@ -15,12 +15,6 @@ This section provides a walkthrough of the Bowfolios user interface and its capa
 
 Bowfolios is based upon [Next.js-application-template-react](https://ics-software-engineering.github.io/Next.js-application-template-react/) and [Next.js-example-form-react](https://ics-software-engineering.github.io/Next.js-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
-### Data model
-
-As noted above, the Bowfolios data model consists of three "primary" tables (Projects, Profiles, and Interests), as well as three "join" tables (ProfilesProjects, ProfilesInterests, and ProjectsInterests). To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
-
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary tables:
-
 ![](doc/data-model.png)
 
 ## Initialization
@@ -40,8 +34,6 @@ ESLint should run without generating any errors.
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
-
-The only impact of quarantine mode should be that the first test is marked as "unstable".
 
 ## From mockup to production
 
