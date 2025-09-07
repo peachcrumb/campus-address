@@ -1,13 +1,16 @@
 # Aloha all,
 
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+As we head into the 20XX school year, I have a few announcements and reminders. For parents, if your children have not been in my classes before –  my name is Phoebe and I'll be teaching **4th grade general sciences** as well as **6th grade robotics**  
+and **coding lab after school for 5-8th grade**. If you would like to see their syllabi ahead of time, please check the school's [LMS] site and navigate to my course(s).  
 
-- [Next.js](https://nextjs.org/) for Typescript-based implementation of client and server code.
-![](doc/landing-page.png)
+In the syllabus, you may notice the classroom has a specific procedure regarding devices. As soon as students arrive, they will need to:  
+### Deposit any electronic that connects to the internet via wifi, ethernet, cell service, or otherwise at the room's designated charging hub.  
+This policy emerged through my experience teaching other STEM courses at this school during the final years in my bachelor's program, since I observed that unlimited access to students' personal devices could cause disruptions to the class. On the back  
+of the same coin, being wholly unable to use electronics during the daytime would ultimately render students technologically illiterate and leave them at a greater disadvantage in modern skills compared to their peers in other programs.  
+The solution? Allowing use of these devices in moderation during classtime, but only when relevant to the discussion or activity.
+
 
 ## Community Feedback
-
-Bowfolios is based upon [Next.js-application-template-react](https://ics-software-engineering.github.io/Next.js-application-template-react/) and [Next.js-example-form-react](https://ics-software-engineering.github.io/Next.js-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
 - Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
 - Use of https so that passwords are sent in encrypted format.
@@ -32,7 +35,7 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
     * It’s your grade, not mine. 
     * Exceptions can be made in extenuating circumstances but will require documented evidence (doctor’s note, obituary, etc.)
 
-* Labs can be made up afterschool or at lunchtimes
+* Labs can be made up afterschool or at lunchtimes.
     * Please schedule with me and have your parents sign a form to approve extending or compensating for your learning time.
 
 * Disrupting class? 
