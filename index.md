@@ -75,34 +75,6 @@ The Filter page provides the ability to query the database and display the resul
 
 ## Community Feedback
 
-We are interested in your experience using Bowfolio! If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
-
-## Developer Guide
-
-This section provides information of interest to Next.js developers wishing to use this code base as a basis for their own development tasks.
-
-### Installation
-
-First,
-
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
-
-Third, cd into the bowfolios/app directory and install libraries with:
-
-```
-$ Next.js npm install
-```
-
-Fourth, run the system with:
-
-```
-$ Next.js npm run start
-```
-
-If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
-
-### Application Design
-
 Bowfolios is based upon [Next.js-application-template-react](https://ics-software-engineering.github.io/Next.js-application-template-react/) and [Next.js-example-form-react](https://ics-software-engineering.github.io/Next.js-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
 ### Data model
@@ -132,21 +104,6 @@ The settings.development.json file contains a field called "loadAssetsFile". It 
 #### ESLint
 
 BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
-
-```
-Next.js npm run lint
-```
-
-Here is sample output indicating that no ESLint errors were detected:
-
-```
-$ Next.js npm run lint
-
-> bowfolios@ lint /Users/philipjohnson/github/bowfolios/bowfolios/app
-> eslint --quiet --ext .jsx --ext .js ./imports ./tests
-
-$
-```
 
 ESLint should run without generating any errors.
 
